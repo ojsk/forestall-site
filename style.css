@@ -1,0 +1,26 @@
+:root{--bg:#fbfaf7;--fg:#22211d;--muted:#6b675e;--line:#e4e0d6;--accent:#4f6b3a;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#171815;--fg:#e9e6de;--muted:#a19c90;--line:#33352f;--accent:#9cbf7f;--card:#1f201c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.85 "Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif;word-break:keep-all}
+a{color:var(--accent)}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header.site{border-bottom:1px solid var(--line);padding:18px 0}
+header.site a{color:var(--fg);text-decoration:none;font-weight:700}
+header.site span{color:var(--muted);font-size:14px;margin-left:8px}
+.hero{padding:56px 0 32px}
+.hero h1{font-size:34px;line-height:1.35;margin:0 0 16px;font-family:"Noto Serif KR","AppleMyungjo",serif}
+.hero p{color:var(--muted);margin:0}
+.part{border-top:1px solid var(--line);padding:28px 0}
+.part h2{font-size:20px;margin:0 0 4px}
+.part .sub{color:var(--muted);font-size:15px;margin:0 0 12px}
+.post-link{display:block;padding:12px 16px;margin:8px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--fg)}
+.post-link b{color:var(--accent);margin-right:8px}
+.soon{color:var(--muted);font-size:15px}
+article{padding:40px 0 24px}
+article .meta{color:var(--muted);font-size:14px}
+article h1{font-size:30px;line-height:1.4;margin:8px 0 28px;font-family:"Noto Serif KR","AppleMyungjo",serif}
+article h2{font-size:21px;margin:40px 0 8px}
+article li{margin:4px 0}
+.note{margin:32px 0;padding:14px 16px;border-left:3px solid var(--accent);background:var(--card);color:var(--muted);font-size:15px}
+footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--muted);font-size:14px}
+@media (max-width:600px){body{font-size:16px}.hero h1{font-size:27px}article h1{font-size:25px}}
