@@ -40,3 +40,5 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--muted);f
 .pn.empty{color:var(--muted);border-style:dashed}
 a.pn:hover{border-color:var(--accent)}
 @media (max-width:600px){.post-nav{grid-template-columns:1fr 1fr}.pn.list{grid-column:1/-1;order:3}}
+header.site a.brand{font-size:20px;letter-spacing:-0.02em}
+.hero .kicker{color:var(--accent);font-size:14px;font-weight:700;margin:0 0 10px}
